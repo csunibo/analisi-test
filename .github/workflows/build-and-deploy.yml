@@ -10,6 +10,6 @@ on:
 jobs:
   deploy:
     name: Deploy
-    uses: csunibo/config/.github/workflows/statik.yml@new_statik
+    uses: csunibo/config/.github/workflows/statik.yml@fix/mode-time-dir
     with:
       regex_include: "\\.(pdf|link|txt|apkg)$"
